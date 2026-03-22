@@ -1,0 +1,23 @@
+User uploads PDF
+        ↓
+PDF → split into chunks
+        ↓
+Chunks → embeddings → stored in Chroma DB
+        ↓
+User asks question
+        ↓
+Chat history added
+        ↓
+Question rewritten (history-aware)
+        ↓
+Retriever searches vector DB
+        ↓
+Relevant chunks returned
+        ↓
+LLM generates answer using context
+        ↓
+Answer + chat history stored
+        ↓
+Displayed in UI
+
+
